@@ -8,6 +8,7 @@ session_start();
 
 // Check if the sign up form is submitted
 if (isset($_POST['signup_submit'])) {
+    echo 'newnew ah';
     $error = [];
 
     // Get firstName, lastName, email, password and confirmPassword from the submitted form data
